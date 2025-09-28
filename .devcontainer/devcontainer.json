@@ -1,0 +1,22 @@
+{
+  "name": "design system",
+  "dockerFile": "Dockerfile",
+  "context": ".",
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "donjayamanne.githistory",
+        "esbenp.prettier-vscode",
+        "stylelint.vscode-stylelint",
+        "dbaeumer.vscode-eslint",
+        "vunguyentuan.vscode-css-variables",
+        "Gruntfuggly.todo-tree",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
