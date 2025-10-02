@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import clsx from "clsx";
-import { createStyle } from "./styles";
+import { createStyle } from "./style-extensions";
 
 import { LabelProps } from "./types";
 
